@@ -1,0 +1,14 @@
+
+.tower3d-host{position:absolute;inset:0 0 0;overflow:hidden;background:linear-gradient(#a8d9ec,#e1edcf 65%,#79b96d);isolation:isolate}
+.tower-webgl{display:block;width:100%;height:100%;touch-action:none;cursor:grab;outline:none}
+.tower-webgl:active{cursor:grabbing}
+.tower3d-hint{position:absolute;right:14px;top:42px;z-index:5;padding:7px 9px;background:#f6ffe7d9;border:1px solid #b7d7a5;color:#3d7051;font:9px 'DM Mono',monospace;letter-spacing:.04em;pointer-events:none}
+.tower3d-fallback{position:absolute;inset:0;display:flex;flex-direction:column;gap:8px;align-items:center;justify-content:center;padding:24px;background:linear-gradient(#a8d9ec,#e1edcf 65%,#79b96d);color:#254c3c;text-align:center;font:12px 'DM Mono',monospace}
+.tower3d-fallback strong{font-size:16px}
+@media(max-width:520px){.tower3d-hint{top:36px;right:8px;font-size:7px;padding:6px}}
+
+.tower3d-zoom{position:absolute;right:14px;bottom:54px;z-index:6;display:flex;flex-direction:column;gap:6px}
+.tower3d-zoom button{width:38px;height:38px;border:1px solid #a5c78d;background:#f5ffe8ed;color:#285b43;font:600 22px 'DM Mono',monospace;box-shadow:2px 2px 0 #47734a;cursor:pointer}
+.tower3d-zoom button:last-child{font-size:8px;letter-spacing:.04em}
+.tower3d-zoom button:hover{background:#c8f17b}
+@media(max-width:520px){.tower3d-zoom{right:8px;bottom:44px}.tower3d-zoom button{width:32px;height:32px}}
